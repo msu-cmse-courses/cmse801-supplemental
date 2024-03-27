@@ -10,7 +10,7 @@ class Animal(object):
         self.kind = kind
         self.name = name
         self.brought_to_zoo = to_zoo
-        self.requred_area = area       # required area [m2]
+        self.required_area = area       # required area [m2]
         # required number of staff members per animal; can be fraction, e.g. 0.2 means one zookeeper can take care of 5 animals
         self.required_staff = staff  
         return
